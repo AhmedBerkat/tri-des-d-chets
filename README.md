@@ -1,4 +1,5 @@
-<p>le  Système (https://github.com/user-attachments/assets/22c09e10-258a-4d4f-9bc8-48d9db42f646) le déchet (https://github.com/user-attachments/assets/8e0ea2c2-6c29-40ef-bd1d-23afc786d5d6) </p>
+<h4> Voir le Système</h4>h4>  (https://github.com/user-attachments/assets/22c09e10-258a-4d4f-9bc8-48d9db42f646)
+<h4> Voir le déchet</h4> (https://github.com/user-attachments/assets/8e0ea2c2-6c29-40ef-bd1d-23afc786d5d6) 
 
 <h1>Waste Classification Project</h1>
 Ce projet utilise un Raspberry Pi, un capteur PIR, une ESP CAM, et un modèle de classification basé sur TensorFlow pour détecter et classifier différents types de déchets.
