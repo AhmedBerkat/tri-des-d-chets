@@ -1,5 +1,6 @@
 <h4><b></b> Voir le Système</b>    (https://github.com/user-attachments/assets/22c09e10-258a-4d4f-9bc8-48d9db42f646)</h4>  
 <h4><b> Voir le déchet</b>  (https://github.com/user-attachments/assets/8e0ea2c2-6c29-40ef-bd1d-23afc786d5d6)</h4>  
+<h3>Pour améliorer les performances de votre modèle de classification des déchets et obtenir des résultats plus fiables, vous devrez augmenter la taille et la diversité de votre ensemble de données (dataset).</h3>
 
 <h1>Waste Classification Project</h1>
 Ce projet utilise un Raspberry Pi, un capteur PIR, une ESP CAM, et un modèle de classification basé sur TensorFlow pour détecter et classifier différents types de déchets.
