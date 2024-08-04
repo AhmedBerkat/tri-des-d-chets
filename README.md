@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-08-04 à 19 54 34_80f526d0](https://github.com/user-attachments/assets/8e0ea2c2-6c29-40ef-bd1d-23afc786d5d6)
+![WhatsApp Image 2024-08-04 à 19 54 34_80f526d0](https://github.com/user-attachments/assets/8e0ea2c2-6c29-40ef-bd1d-23afc786d5d6) ![WhatsApp Image 2024-08-04 à 19 53 10_ece11853](https://github.com/user-attachments/assets/f73cc4f6-6c4c-46ca-bca9-831026cee43b)
 
 <h1>Waste Classification Project</h1>
 Ce projet utilise un Raspberry Pi, un capteur PIR, une ESP CAM, et un modèle de classification basé sur TensorFlow pour détecter et classifier différents types de déchets.
