@@ -18,5 +18,14 @@ ESP CAM
 
 <p>PIR_SENSOR_PIN : Le numéro du GPIO utilisé pour le capteur PIR (par défaut : 17).</p>
 <p>ESP_CAM_URL : L'URL de votre ESP CAM (par défaut : http://192.168.43.74/capture).</p>
+<h3>Étape 1 :Charger l'Exemple de Serveur Web de Caméra
+
+<b>Allez dans Fichier -> Exemples -> esp32 -> Camera -> CameraWebServer.</b>
+<b>decomenter  la ligne   #define CAMERA_MODEL_AI_THINKER // Has PSRAM  </b>
+</h3>
+<h3>Étape 1 : Connectez l'ESP CAM à votre Réseau Wi-Fi
+ 1.Configurer le Code de l'ESP CAM : Assurez-vous que le code de votre ESP CAM contient les informations de votre réseau Wi-Fi (SSID et mot de passe). Ce code connecte l'ESP CAM à votre réseau Wi-Fi.
+ 2. Téléverser le Code sur l'ESP CAM : Utilisez l'IDE Arduino ou un autre environnement de développement pour téléverser le code sur l'ESP CAM. Une fois cela fait, l'ESP CAM se connectera à votre réseau Wi-Fi.
+</h3>
 
 <b>Une fois l'entraînement terminé, le modèle final est sauvegardé dans un fichier avec l'extension .h5, comme waste_classification_model.h5. Ce fichier contient l'architecture du réseau de neurones, les poids des couches, et les informations nécessaires pour prédire de nouvelles données. Cela permet de réutiliser le modèle sans avoir à le réentraîner, ce qui est particulièrement utile pour le déploiement sur un Raspberry Pi où la puissance de calcul est limitée.</b>
