@@ -3,14 +3,14 @@
 <h3>Pour améliorer les performances de votre modèle de classification des déchets et obtenir des résultats plus fiables, vous devrez augmenter la taille et la diversité de votre ensemble de données (dataset).</h3>
 
 <h1>Waste Classification Project</h1>
-Ce projet utilise un Raspberry Pi, un capteur PIR, une ESP CAM, et un modèle de classification basé sur TensorFlow pour détecter et classifier différents types de déchets.
+Ce projet utilise un Raspberry Pi, un capteur PIR, une ESP CAM, un Servo Moto et un modèle de classification basé sur TensorFlow pour détecter et classifier différents types de déchets.
 <h2>Description</h2>
 Le système fonctionne de la manière suivante :
 
-<p>Détection de Mouvement : Un capteur PIR est utilisé pour détecter tout mouvement.</p>
-<p>Capture d'Image : Lorsqu'un mouvement est détecté, une image est capturée par l'ESP CAM.</p
-<p>Classification : L'image capturée est ensuite classifiée par un modèle de machine learning pour déterminer le type de déchet (par exemple : métal, papier, plastique).</p>
-<p>Résultat : La classe prédite est affichée dans la console.</p>
+<p>Détection de présence : Détection de présence via capteur PIR ..</p>
+<p>Capture d'Image : Capture d’image déclenchée automatiquement par une caméra ESP32-CAM dès qu’un déchet est détecté.</p
+<p>Classification :Classification des déchets (plastique, métal, papier ) grâce à un modèle de machine learning embarqué.</p>
+<p>Résultat : Orientation intelligente du déchet vers la poubelle appropriée, selon le type identifié.</p>
 <h2>Matériel Requis</h2>
 Raspberry Pi (avec Python installé)
 Capteur PIR
